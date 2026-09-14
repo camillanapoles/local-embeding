@@ -26,6 +26,7 @@ object VoiceIO {
                 sr.destroy(); if (txt.isBlank()) onError("nada reconhecido") else onResult(txt)
             }
             override fun onError(e: Int) { sr.destroy(); onError("erro STT $e") }
+            override fun onPartialResults(partialResults: Bundle?) {}
             override fun onReadyForSpeech(p: Bundle?) {}
             override fun onBeginningOfSpeech() {}
             override fun onRmsChanged(r: Float) {}

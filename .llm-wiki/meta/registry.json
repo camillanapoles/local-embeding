@@ -1,7 +1,20 @@
 {
- "generated_at": "2026-09-14T22:10:30Z",
- "page_count": 52,
+ "generated_at": "2026-09-14T23:21:39Z",
+ "page_count": 54,
  "pages": [
+  {
+   "id": "sources/android-llm-ondevice-2026.md",
+   "path": "sources/android-llm-ondevice-2026.md",
+   "type": "source",
+   "title": "On-device LLM Android 2026 — MediaPipe vs llama.cpp vs llama.rn",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/entities/llama-cpp.md"
+   ],
+   "words": 113
+  },
   {
    "id": "sources/computeprices-salad.md",
    "path": "sources/computeprices-salad.md",
@@ -28,6 +41,18 @@
     "/entities/whisper-cpp.md"
    ],
    "words": 106
+  },
+  {
+   "id": "sources/ime-voz-llm-intents-2026.md",
+   "path": "sources/ime-voz-llm-intents-2026.md",
+   "type": "source",
+   "title": "IME + voz + LLM + intents — padrão 2026",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/voice-loop-latency.md"
+   ],
+   "words": 97
   },
   {
    "id": "sources/infinity-emb-repo.md",

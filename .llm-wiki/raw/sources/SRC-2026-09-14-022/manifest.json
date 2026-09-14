@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-022",
+  "title": "Teclado IME + voz + LLM + intents (padrão 2026)",
+  "url": "https://github.com/j3soon/whisper-to-input",
+  "publisher": "j3soon/whisper-to-input / Picovoice / forasoft",
+  "published_at": "2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "URL canônica + excerpt"
+}
