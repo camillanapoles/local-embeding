@@ -1,0 +1,297 @@
+{
+ "generated_at": "2026-09-14T22:10:30Z",
+ "backlinks": {
+  "analyses/research-skill-stack.md": [
+   "analyses/source-policy-2026.md"
+  ],
+  "analyses/source-policy-2026.md": [
+   "retros/wiki-manual-bootstrap.md"
+  ],
+  "concepts/hybrid-search-rerank.md": [
+   "concepts/openai-compat-embedding-endpoint.md",
+   "concepts/recursive-directory-chunking.md",
+   "entities/infinity-emb.md",
+   "entities/qdrant.md",
+   "sources/infinity-emb-repo.md",
+   "sources/premai-best-embedding-models-2026.md",
+   "sources/qdrant-hybrid-quantization-docs.md",
+   "sources/qwen3-reranker-gguf-llamacpp.md",
+   "sources/rag-chunking-2026-guides.md",
+   "sources/text-embeddings-inference-repo.md"
+  ],
+  "concepts/incremental-indexing.md": [
+   "concepts/recursive-directory-chunking.md",
+   "entities/sqlite-vec.md",
+   "sources/sqlite-vec-release.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "concepts/k8s-workload-isolation.md": [
+   "concepts/serverless-gpu-endpoint.md",
+   "entities/text-embeddings-inference.md",
+   "entities/virtual-kubelet-saladcloud.md",
+   "sources/text-embeddings-inference-repo.md",
+   "sources/virtual-kubelet-saladcloud-repo.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "concepts/matryoshka-quantization.md": [
+   "concepts/mteb-benchmark.md",
+   "concepts/openai-compat-embedding-endpoint.md",
+   "entities/qdrant.md",
+   "entities/sqlite-vec.md",
+   "retros/embedding-contract-first.md",
+   "sources/kalm-embedding-gemma3-card.md",
+   "sources/premai-best-embedding-models-2026.md",
+   "sources/qdrant-hybrid-quantization-docs.md",
+   "syntheses/local-vs-cloud-decision.md"
+  ],
+  "concepts/mteb-benchmark.md": [
+   "entities/kalm-embedding-gemma3.md",
+   "entities/qwen3-embedding-family.md",
+   "sources/kalm-embedding-gemma3-card.md",
+   "sources/milvus-embedding-2026.md",
+   "sources/premai-best-embedding-models-2026.md",
+   "sources/qwen3-embedding-scores.md"
+  ],
+  "concepts/openai-compat-embedding-endpoint.md": [
+   "concepts/matryoshka-quantization.md",
+   "concepts/voice-loop-latency.md",
+   "entities/infinity-emb.md",
+   "entities/llama-cpp.md",
+   "entities/qwen3-embedding-family.md",
+   "retros/embedding-contract-first.md",
+   "sources/infinity-emb-repo.md",
+   "sources/llama-cpp-android-docs.md",
+   "sources/llamacpp-embeddings-api.md",
+   "syntheses/local-vs-cloud-decision.md"
+  ],
+  "concepts/recursive-directory-chunking.md": [
+   "concepts/hybrid-search-rerank.md",
+   "concepts/incremental-indexing.md",
+   "sources/rag-chunking-2026-guides.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "concepts/serverless-gpu-endpoint.md": [
+   "concepts/k8s-workload-isolation.md",
+   "entities/saladcloud.md",
+   "entities/text-embeddings-inference.md",
+   "entities/virtual-kubelet-saladcloud.md",
+   "sources/computeprices-salad.md",
+   "sources/saladcloud-container-gateway.md",
+   "sources/virtual-kubelet-saladcloud-repo.md",
+   "syntheses/local-vs-cloud-decision.md"
+  ],
+  "concepts/stt-vocabulario-tecnico.md": [
+   "sources/whisper-vocabulario-custom.md"
+  ],
+  "concepts/voice-loop-latency.md": [
+   "concepts/stt-vocabulario-tecnico.md",
+   "entities/kokoro.md",
+   "entities/piper.md",
+   "entities/speaches.md",
+   "entities/whisper-cpp.md",
+   "sources/faster-whisper-speaches.md",
+   "sources/kokoro-ptbr-voices.md",
+   "sources/tts-2026-rankings.md",
+   "sources/voice-latency-2026.md",
+   "syntheses/voice-stack.md"
+  ],
+  "entities/infinity-emb.md": [
+   "sources/infinity-emb-repo.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "entities/kalm-embedding-gemma3.md": [
+   "sources/kalm-embedding-gemma3-card.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "entities/kokoro.md": [
+   "concepts/voice-loop-latency.md",
+   "entities/piper.md",
+   "sources/kokoro-ptbr-voices.md",
+   "sources/tts-2026-rankings.md",
+   "sources/voice-latency-2026.md",
+   "syntheses/voice-stack.md"
+  ],
+  "entities/llama-cpp.md": [
+   "concepts/hybrid-search-rerank.md",
+   "concepts/openai-compat-embedding-endpoint.md",
+   "entities/whisper-cpp.md",
+   "sources/llama-cpp-android-docs.md",
+   "sources/llamacpp-embeddings-api.md",
+   "sources/qwen3-reranker-gguf-llamacpp.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "entities/piper.md": [
+   "entities/kokoro.md",
+   "sources/kokoro-ptbr-voices.md",
+   "sources/tts-2026-rankings.md",
+   "syntheses/voice-stack.md"
+  ],
+  "entities/qdrant.md": [
+   "concepts/hybrid-search-rerank.md",
+   "concepts/matryoshka-quantization.md",
+   "sources/qdrant-hybrid-quantization-docs.md",
+   "sources/rag-chunking-2026-guides.md"
+  ],
+  "entities/qwen3-embedding-family.md": [
+   "concepts/matryoshka-quantization.md",
+   "sources/milvus-embedding-2026.md",
+   "sources/premai-best-embedding-models-2026.md",
+   "sources/qwen3-embedding-scores.md",
+   "sources/qwen3-reranker-gguf-llamacpp.md",
+   "sources/rag-chunking-2026-guides.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "entities/saladcloud.md": [
+   "concepts/serverless-gpu-endpoint.md",
+   "entities/kalm-embedding-gemma3.md",
+   "sources/computeprices-salad.md",
+   "sources/saladcloud-container-gateway.md",
+   "sources/virtual-kubelet-saladcloud-repo.md"
+  ],
+  "entities/speaches.md": [
+   "concepts/voice-loop-latency.md",
+   "entities/whisper-cpp.md",
+   "sources/faster-whisper-speaches.md",
+   "sources/whisper-vocabulario-custom.md",
+   "syntheses/voice-stack.md"
+  ],
+  "entities/sqlite-vec.md": [
+   "concepts/incremental-indexing.md",
+   "entities/qdrant.md",
+   "retros/llamacpp-termux-verified.md",
+   "sources/sqlite-vec-release.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "entities/text-embeddings-inference.md": [
+   "concepts/hybrid-search-rerank.md",
+   "concepts/openai-compat-embedding-endpoint.md",
+   "sources/text-embeddings-inference-repo.md",
+   "syntheses/cloud-embedding-stack.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "entities/virtual-kubelet-saladcloud.md": [
+   "concepts/k8s-workload-isolation.md",
+   "concepts/serverless-gpu-endpoint.md",
+   "sources/virtual-kubelet-saladcloud-repo.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "entities/whisper-cpp.md": [
+   "concepts/stt-vocabulario-tecnico.md",
+   "concepts/voice-loop-latency.md",
+   "entities/speaches.md",
+   "sources/faster-whisper-speaches.md",
+   "sources/voice-latency-2026.md",
+   "sources/whisper-vocabulario-custom.md",
+   "syntheses/voice-stack.md"
+  ],
+  "retros/llamacpp-termux-verified.md": [
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/computeprices-salad.md": [
+   "entities/saladcloud.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "sources/faster-whisper-speaches.md": [
+   "entities/speaches.md",
+   "entities/whisper-cpp.md",
+   "syntheses/voice-stack.md"
+  ],
+  "sources/infinity-emb-repo.md": [
+   "entities/infinity-emb.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/kalm-embedding-gemma3-card.md": [
+   "entities/kalm-embedding-gemma3.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "sources/kokoro-ptbr-voices.md": [
+   "entities/kokoro.md",
+   "syntheses/voice-stack.md"
+  ],
+  "sources/llama-cpp-android-docs.md": [
+   "entities/llama-cpp.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/llamacpp-embeddings-api.md": [
+   "analyses/source-policy-2026.md",
+   "entities/llama-cpp.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/milvus-embedding-2026.md": [
+   "concepts/mteb-benchmark.md"
+  ],
+  "sources/premai-best-embedding-models-2026.md": [
+   "analyses/source-policy-2026.md",
+   "concepts/mteb-benchmark.md",
+   "entities/qwen3-embedding-family.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/qdrant-hybrid-quantization-docs.md": [
+   "concepts/matryoshka-quantization.md",
+   "entities/qdrant.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "sources/qwen3-embedding-scores.md": [
+   "entities/qwen3-embedding-family.md"
+  ],
+  "sources/qwen3-reranker-gguf-llamacpp.md": [
+   "entities/llama-cpp.md",
+   "entities/qwen3-embedding-family.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/rag-chunking-2026-guides.md": [
+   "concepts/hybrid-search-rerank.md",
+   "concepts/recursive-directory-chunking.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/saladcloud-container-gateway.md": [
+   "concepts/serverless-gpu-endpoint.md",
+   "entities/saladcloud.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "sources/sqlite-vec-release.md": [
+   "analyses/source-policy-2026.md",
+   "concepts/incremental-indexing.md",
+   "entities/sqlite-vec.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/text-embeddings-inference-repo.md": [
+   "concepts/k8s-workload-isolation.md",
+   "entities/text-embeddings-inference.md",
+   "syntheses/cloud-embedding-stack.md",
+   "syntheses/local-embedding-stack.md"
+  ],
+  "sources/tts-2026-rankings.md": [
+   "entities/kokoro.md",
+   "syntheses/voice-stack.md"
+  ],
+  "sources/virtual-kubelet-saladcloud-repo.md": [
+   "concepts/k8s-workload-isolation.md",
+   "entities/virtual-kubelet-saladcloud.md",
+   "syntheses/cloud-embedding-stack.md"
+  ],
+  "sources/voice-latency-2026.md": [
+   "syntheses/voice-stack.md"
+  ],
+  "sources/whisper-vocabulario-custom.md": [
+   "concepts/stt-vocabulario-tecnico.md"
+  ],
+  "syntheses/cloud-embedding-stack.md": [
+   "syntheses/local-embedding-stack.md",
+   "syntheses/local-vs-cloud-decision.md"
+  ],
+  "syntheses/local-embedding-stack.md": [
+   "retros/llamacpp-termux-verified.md",
+   "syntheses/cloud-embedding-stack.md",
+   "syntheses/local-vs-cloud-decision.md"
+  ],
+  "syntheses/local-vs-cloud-decision.md": [
+   "syntheses/cloud-embedding-stack.md",
+   "syntheses/local-embedding-stack.md",
+   "syntheses/voice-stack.md"
+  ],
+  "syntheses/voice-stack.md": [
+   "syntheses/local-vs-cloud-decision.md"
+  ]
+ }
+}

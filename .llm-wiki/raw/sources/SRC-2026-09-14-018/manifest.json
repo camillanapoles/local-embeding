@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-018",
+  "title": "Kokoro PT-BR (pf_dora) + Piper pt_BR-faber",
+  "url": "https://huggingface.co/spaces/leonelhs/kokoro-tts-portuguese",
+  "publisher": "leonelhs (HF Space) / rhasspy-piper",
+  "published_at": "2026 (Space ativo)",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "URL canônica + excerpt em extracted.md"
+}

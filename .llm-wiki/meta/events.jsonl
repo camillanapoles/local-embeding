@@ -1,0 +1,20 @@
+{"ts": "2026-09-14T13:49:17Z", "kind": "capture", "detail": "14 fontes SRC-2026-09-14-001..014 (1 full-text, 12 snippet, 1 local-test)"}
+{"ts": "2026-09-14T13:49:17Z", "kind": "meta_rebuild", "detail": "38 páginas, 139 arestas"}
+{"ts": "2026-09-14T13:49:17Z", "kind": "pages", "detail": "38 páginas wiki: 14 sources, 9 entities, 8 concepts, 3 syntheses, 2 analyses, 2 retros"}
+{"ts": "2026-09-14T13:49:17Z", "kind": "meta_rebuild", "detail": "38 páginas, 139 arestas"}
+{"ts": "2026-09-14T13:55:14Z", "kind": "docs", "detail": "3 docs criados: EMBED-RAG-LOCAL, EMBED-RAG-CLOUD, EMBED-RAG-DECISAO"}
+{"ts": "2026-09-14T13:55:14Z", "kind": "meta_rebuild", "detail": "38 páginas, 140 arestas"}
+{"ts": "2026-09-14T13:55:14Z", "kind": "refine", "detail": "gap-pass: versionamento de índice (7.1/11.1), risco de parser, comando -hf, fallback cloud->local, typo wiki, deorphan skill-stack"}
+{"ts": "2026-09-14T13:55:14Z", "kind": "meta_rebuild", "detail": "38 páginas, 140 arestas"}
+{"ts": "2026-09-14T13:55:15Z", "kind": "meta_rebuild", "detail": "38 páginas, 140 arestas"}
+{"ts": "2026-09-14T13:55:48Z", "kind": "meta_rebuild", "detail": "38 páginas, 140 arestas"}
+{"ts": "2026-09-14T13:56:09Z", "kind": "meta_rebuild", "detail": "38 páginas, 140 arestas"}
+{"ts": "2026-09-14T21:04:49Z", "kind": "verify", "detail": "Android real: llama-server build 4m54s (Clang 21, aarch64); Qwen3-Embedding-0.6B Q8 oficial 639MB; /v1/embeddings 1024 dims; 135ms solo; 253ms batch-8; --mlock removido na versão atual"}
+{"ts": "2026-09-14T21:04:49Z", "kind": "meta_rebuild", "detail": "49 páginas, 182 arestas"}
+{"ts": "2026-09-14T21:04:49Z", "kind": "docs", "detail": "rev.2: Padrão C (VPS CPU endpoint) + KB-junto-do-endpoint em DECISAO §1.1-1.2; tools/verify_vps.sh; doc VOICE-LLM.md; 4 packets SRC-015..018 (voz)"}
+{"ts": "2026-09-14T21:04:49Z", "kind": "meta_rebuild", "detail": "49 páginas, 182 arestas"}
+{"ts": "2026-09-14T21:04:50Z", "kind": "meta_rebuild", "detail": "49 páginas, 182 arestas"}
+{"ts": "2026-09-14T21:05:13Z", "kind": "meta_rebuild", "detail": "49 páginas, 183 arestas"}
+{"ts": "2026-09-14T22:10:30Z", "kind": "docs", "detail": "rev.3: VOICE-LLM §1.1 papéis dos modelos, §1.2 qualidade 0.6B vs padrão (61.82>58.93 MTEB-R, Code 75.41), §3.1.1 vocabulário técnico PT-BR (initial_prompt/hotwords) + tools/glossario-tech-ptbr.txt (~120 termos)"}
+{"ts": "2026-09-14T22:10:30Z", "kind": "meta_rebuild", "detail": "52 páginas, 192 arestas"}
+{"ts": "2026-09-14T22:10:30Z", "kind": "meta_rebuild", "detail": "52 páginas, 192 arestas"}

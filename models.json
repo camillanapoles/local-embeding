@@ -1,0 +1,63 @@
+{
+  "operator_note": "Modelos indicados pelo LLM operador (verificação HTTP 2026-09-14; verified=URL confirmada 200)",
+  "models": [
+    {
+      "id": "chat",
+      "name": "Qwen3-1.7B Instruct Q8_0 — chat no telefone",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q8_0.gguf",
+      "size_mb": 1810,
+      "purpose": "llama-server (chat) — porta 8080",
+      "verified": true
+    },
+    {
+      "id": "embedding",
+      "name": "Qwen3-Embedding-0.6B Q8_0 — RAG (VERIFICADO localmente)",
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF/resolve/main/Qwen3-Embedding-0.6B-Q8_0.gguf",
+      "size_mb": 639,
+      "purpose": "llama-server --embedding --pooling last",
+      "verified": true
+    },
+    {
+      "id": "stt",
+      "name": "Whisper small (PT) — voz➞texto",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
+      "size_mb": 484,
+      "purpose": "whisper-server --language pt — porta 8081",
+      "verified": true
+    },
+    {
+      "id": "tts-piper",
+      "name": "Piper pt_BR faber medium — texto➞voz leve",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx",
+      "size_mb": 63,
+      "purpose": "TTS fallback Android/Termux",
+      "verified": true
+    },
+    {
+      "id": "tts-kokoro",
+      "name": "Kokoro-82M ONNX — TTS qualidade (pf_dora pt-BR)",
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.int8.onnx",
+      "size_mb": 109,
+      "purpose": "TTS no VPS/Pop!_OS (wrapper /v1/audio/speech)",
+      "verified": true,
+      "note": "uso com voices-v1.0.bin do mesmo release; variantes fp16/full no release model-files-v1.1; espeelho HF: onnx-community/Kokoro-82M-v1.0-ONNX"
+    },
+    {
+      "id": "rerank",
+      "name": "Qwen3-Reranker-0.6B Q8_0 — precisão de busca",
+      "url": "",
+      "size_mb": 639,
+      "purpose": "llama-server --rerank — porta 11435",
+      "verified": false,
+      "note": "usar conversão com convert_hf_to_gguf.py oficial (cls.output.weight+pooling_type=RANK); ver coleção testada Voodisss (mar/2026)"
+    },
+    {
+      "id": "tts-kokoro-voices",
+      "name": "Kokoro voices-v1.0.bin (inclui pf_dora pm_alex pm_santa pt-BR)",
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin",
+      "size_mb": 27,
+      "purpose": "bundle de vozes do Kokoro",
+      "verified": true
+    }
+  ]
+}

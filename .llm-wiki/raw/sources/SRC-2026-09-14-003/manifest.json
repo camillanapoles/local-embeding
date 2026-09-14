@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-003",
+  "title": "Working with llama.cpp Embeddings",
+  "url": "https://software.land/working-with-llama-cpp-embeddings",
+  "publisher": "Software.Land",
+  "published_at": "não verificada (descreve API atual)",
+  "captured_at": "2026-09-14",
+  "tier": "B",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

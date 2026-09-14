@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-013",
+  "title": "RAG Chunking 2026 — benchmark guides (PremAI + DigitalApplied + Redis)",
+  "url": "https://www.premai.io/blog/rag-chunking-strategies-the-2026-benchmark-guide",
+  "publisher": "PremAI / DigitalApplied / Redis",
+  "published_at": "2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

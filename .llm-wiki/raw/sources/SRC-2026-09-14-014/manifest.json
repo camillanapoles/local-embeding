@@ -1,0 +1,13 @@
+{
+  "id": "SRC-2026-09-14-014",
+  "title": "tencent/KaLM-Embedding-Gemma3-12B-2511",
+  "url": "https://huggingface.co/tencent/KaLM-Embedding-Gemma3-12B-2511",
+  "publisher": "Tencent (org KaLM-Embedding)",
+  "published_at": "2511 (nov/2025); card vigente em 2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md",
+  "caveat": "12B — pesado p/ CPU/telefone; relevante como topo do leaderboard MMTEB, não como modelo default"
+}

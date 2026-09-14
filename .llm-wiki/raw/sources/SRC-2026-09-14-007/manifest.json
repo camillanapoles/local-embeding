@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-007",
+  "title": "Salad Cloud GPU Pricing (37+ GPUs)",
+  "url": "https://computeprices.com/providers/salad",
+  "publisher": "ComputePrices.com",
+  "published_at": "reviewed 2026-03-14",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

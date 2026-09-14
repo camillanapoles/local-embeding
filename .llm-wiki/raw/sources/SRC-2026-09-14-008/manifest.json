@@ -1,0 +1,13 @@
+{
+  "id": "SRC-2026-09-14-008",
+  "title": "Best Embedding Model for RAG 2026: 10 Models Compared (Milvus blog)",
+  "url": "https://milvus.io/blog/choose-embedding-model-rag-2026.md",
+  "publisher": "Milvus/Zilliz",
+  "published_at": "2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md",
+  "caveat": "corpo bloqueou fetch (403); dados do snippet de busca apenas"
+}

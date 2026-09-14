@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-002",
+  "title": "llama.cpp docs: android.md (Termux)",
+  "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/android.md",
+  "publisher": "ggml-org/llama.cpp",
+  "published_at": "living doc (repo ativo 2026)",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

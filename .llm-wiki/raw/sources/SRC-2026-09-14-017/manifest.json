@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-017",
+  "title": "Pipeline de voz 2026: latência, VAD, barge-in",
+  "url": "https://arxiv.org/html/2603.05413v1",
+  "publisher": "arXiv / SyncSoft / Gradium / Switchboard",
+  "published_at": "2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "URL canônica + excerpt em extracted.md"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "intent-action",
+  "name": "Ação Android (compartilhar)",
+  "intent_action": "android.intent.action.SEND",
+  "steps": [
+    {"id": "s1", "label": "Resumir p/ compartilhar", "template": "Resuma o texto abaixo em até 400 caracteres, pronto para compartilhar:\n{{input}}"}
+  ]
+}

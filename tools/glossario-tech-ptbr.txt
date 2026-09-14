@@ -1,0 +1,126 @@
+# Glossário técnico PT-BR para STT (Whisper) — jargão EN de engenharia de software + formas aportuguesadas
+#
+# USO (2 formas):
+# 1) initial_prompt — whisper.cpp server: campo `prompt` no multipart POST /inference
+#    (ou flag --prompt); Speaches/faster-whisper: `initial_prompt` (e `hotwords` no faster-whisper).
+#    Cole a linha "PROMPT_PRONTO" abaixo como prompt. Efeito: eleva a probabilidade desses
+#    tokens durante a decodificação — "glossário" sem fine-tuning (OpenAI Cookbook / arXiv 2410.18363).
+#    Manter curto (~200 tokens): o prompt é condicionamento, não lista infinita.
+# 2) Dicionário de pós-correção — trate este arquivo como tabela (en | como se fala | categoria)
+#    e aplique fuzzy-match na saída do STT antes de mandar ao LLM.
+#
+# Formato: termo EN | forma falada/aportuguesada (BR real) | categoria
+
+PROMPT_PRONTO:
+"Transcrição de sessão de engenharia de software em português: vamos fazer o deploy do endpoint de embedding, commitar no Git, abrir pull request, rodar o build com Docker e Kubernetes, checar o cache, o batch, o throughput, a latência, o bug no parser, o log do runtime, o refactor do callback, webhooks, API REST, streaming, tokens, embeddings, rerank, vector database, query, benchmark, CI/CD, rollback, fallback, pipeline, framework, backend, frontend, full stack, debug, on-premise, GPU, CPU, RAM, storage, upgrade, downgrade, merge, rebase, stash, issue, milestone, sprint, review, code review, staging, production, release, hotfix, feature, branch, fork, clone, build, testes de unidade, integração e carga, observabilidade, tracing, rate limit, timeout, retry, queue, worker, scheduler, daemon, socket, proxy, gateway, balanceador de carga, TLS, autenticação, autorização, token JWT, secrets, encrypt, decrypt, hash, backup, snapshot, restore, migração, schema, index, índice invertido, embedding, similaridade, cosseno, retrieval, RAG, prompt, contexto, chunking, tokenização, fine-tuning, quantização, inferência, batching, throughput."
+
+# -----------------------------------------------------------------------------
+# DICIONÁRIO COMPLETO (para pós-correção / expansão do prompt)
+# en | como se fala no BR | categoria
+deploy | "deploy", "deployar", "fazer o deploy" | ops
+rollback | "rollback", "voltar o deploy" | ops
+pull request | "pull request", "PR", "abrir um PR" | git
+commit | "commit", "commitar" | git
+merge | "merge", "mergear", "dar merge" | git
+rebase | "rebase", "dar rebase" | git
+stash | "stash", "estacar"? → usar "stash" | git
+branch | "branch", "ramo" | git
+fork | "fork", "forkar" | git
+clone | "clone", "clonar" | git
+issue | "issue", "ticker"? → "issue" | gestão
+milestone | "milestone", "marco" | gestão
+sprint | "sprint" | gestão
+review / code review | "review", "code review", "revisão" | gestão
+refactor | "refactor", "refatorar", "refactoring" | código
+debug | "debug", "debugar", "depurar" | código
+bug | "bug", "bugar", "defeito" | código
+hotfix | "hotfix", "patch de emergência" | ops
+feature | "feature", "funcionalidade" | produto
+release | "release", "lançamento" | produto
+staging | "staging", "ambiente de stage" | ops
+production | "production", "produção", "prod" | ops
+build | "build", "buildar", "compilar" | dev
+pipeline | "pipeline", "esteira" (CI/CD) | devops
+CI/CD | "CI CD", "integração contínua" | devops
+framework | "framework" | dev
+backend | "backend", "fim do servidor"? → "backend" | arquitetura
+frontend | "frontend" | arquitetura
+full stack | "full stack", "fullstack" | arquitetura
+endpoint | "endpoint", "ponto de acesso" | api
+API REST | "API REST", "rest" | api
+webhook | "webhook" | api
+callback | "callback", "chamada de retorno" | api
+request / response | "request", "response", "requisição/resposta" | api
+rate limit | "rate limit", "limite de taxa" | api
+timeout | "timeout", "tempo limite" | api
+retry | "retry", "retentativa" | api
+queue | "queue", "fila" | sistema
+worker | "worker" | sistema
+scheduler | "scheduler", "agendador" | sistema
+daemon | "daemon", "serviço em background" | sistema
+socket | "socket" | rede
+proxy | "proxy" | rede
+gateway | "gateway", "porta de entrada" | rede
+load balancer | "load balancer", "balanceador de carga" | rede
+cache | "cache", "cachear", "caching" | performance
+batch | "batch", "lote", "batching" | performance
+throughput | "throughput", "vazão" | performance
+latency | "latency", "latência" | performance
+benchmark | "benchmark", "benchar" | performance
+bottleneck | "bottleneck", "gargalo" | performance
+runtime | "runtime", "tempo de execução" | execução
+standalone | "standalone", "autônomo" | execução
+fallback | "fallback", "plano B" | resiliência
+failover | "failover" | resiliência
+observability | "observability", "observabilidade" | ops
+logging | "logging", "logs" | ops
+tracing | "tracing", "rastreio" | ops
+monitoring | "monitoring", "monitoramento" | ops
+container | "container", "contêiner" | infra
+Docker | "Docker", "dockerizar" | infra
+Kubernetes / k8s | "Kubernetes", "k8s" | infra
+pod | "pod" | infra
+node | "node", "nó" | infra
+cluster | "cluster", "aglomerado"? → "cluster" | infra
+GPU | "GPU", "placa de vídeo" | hardware
+CPU | "CPU", "processador" | hardware
+RAM | "RAM", "memória" | hardware
+storage | "storage", "armazenamento" | hardware
+snapshot | "snapshot" | dados
+backup | "backup", "cópiar de segurança" | dados
+restore | "restore", "restaurar" | dados
+schema | "schema", "esquema" | dados
+index | "index", "índice" | dados
+query | "query", "consulta" | dados
+vector database | "vector database", "banco vetorial" | ia
+embedding | "embedding", "embeddings", "embeddar" | ia
+rerank | "rerank", "reranquear" | ia
+retrieval / RAG | "retrieval", "RAG", "recuperação" | ia
+chunking | "chunking", "fatiar em chunks" | ia
+token | "token", "tokens", "tokenização" | ia
+prompt | "prompt", "contexto" | ia
+context window | "context window", "janela de contexto" | ia
+fine-tuning | "fine-tuning", "afinar" | ia
+quantization | "quantization", "quantização" | ia
+inference | "inference", "inferência" | ia
+streaming | "streaming", "transmissão" | ia
+speech-to-text | "speech to text", "STT" | voz
+text-to-speech | "text to speech", "TTS" | voz
+VAD | "VAD", "detecção de voz" | voz
+barge-in | "barge-in", "interrupção" | voz
+authentication | "authentication", "autenticação" | segurança
+authorization | "authorization", "autorização" | segurança
+JWT | "JWT", "token JWT" | segurança
+secrets | "secrets", "segredos" | segurança
+encrypt/decrypt | "encrypt", "decrypt", "criptografar" | segurança
+hash | "hash", "hashing", "sha256" | segurança
+TLS | "TLS", "HTTPS" | segurança
+firewall | "firewall" | segurança
+unit test | "unit test", "teste de unidade" | qualidade
+integration test | "integration test", "teste de integração" | qualidade
+load test | "load test", "teste de carga" | qualidade
+regression | "regression", "regressão" | qualidade
+upgrade | "upgrade", "atualizar" | ciclo
+downgrade | "downgrade" | ciclo
+migration | "migration", "migração" | ciclo
+deprecation | "deprecation", "deprecado" | ciclo

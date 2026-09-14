@@ -1,0 +1,12 @@
+*.apk
+*.aab
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+__pycache__/
+*.pyc
+.verify-qdrant/
+kokoro-v1.0.onnx
+voices-v1.0.bin

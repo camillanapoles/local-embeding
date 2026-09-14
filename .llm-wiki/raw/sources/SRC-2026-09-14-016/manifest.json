@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-016",
+  "title": "SYSTRAN/faster-whisper (+Speaches) e whisper.cpp v1.8.x",
+  "url": "https://github.com/SYSTRAN/faster-whisper",
+  "publisher": "SYSTRAN / ggml-org / PromptQuorum",
+  "published_at": "repo ativo; whisper.cpp v1.8.6 jun/2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "URL canônica + excerpt em extracted.md"
+}

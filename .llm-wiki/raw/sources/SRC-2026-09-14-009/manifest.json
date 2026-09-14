@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-009",
+  "title": "Qdrant — Hybrid Query API + Quantization (docs/articles)",
+  "url": "https://qdrant.tech/documentation/manage-data/quantization",
+  "publisher": "Qdrant",
+  "published_at": "docs vivas 2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

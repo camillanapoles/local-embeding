@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-005",
+  "title": "SaladCloud docs — Container Groups + Container Gateway (networking)",
+  "url": "https://docs.salad.com/container-engine/explanation/container-groups/container-groups",
+  "publisher": "Salad Technologies",
+  "published_at": "docs vivas",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

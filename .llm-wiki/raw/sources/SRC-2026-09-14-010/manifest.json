@@ -1,0 +1,13 @@
+{
+  "id": "SRC-2026-09-14-010",
+  "title": "sqlite-vec — releases + estado",
+  "url": "https://github.com/asg017/sqlite-vec",
+  "publisher": "asg017 (Alex Garcia)",
+  "published_at": "v0.1.9 (release atual); v0.1.0 estável 2024-05",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "local-test",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md",
+  "local_verification": "2026-09-14: vec0.so loadable-android-aarch64 v0.1.9 (NDK r27, min Android 21) carregou via db.load_extension() no Termux Python 3.14; KNN 1024-dim OK"
+}

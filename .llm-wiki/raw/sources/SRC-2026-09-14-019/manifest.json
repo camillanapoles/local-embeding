@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-019",
+  "title": "Qwen3-Embedding model cards + tech report (scores 0.6B/4B/8B)",
+  "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+  "publisher": "Qwen (HF card) / QwenLM GitHub / arXiv 2506.05176",
+  "published_at": "jun/2025, vigente 2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "URL canônica + excerpt em extracted.md"
+}

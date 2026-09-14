@@ -1,0 +1,12 @@
+{
+  "id": "SRC-2026-09-14-004",
+  "title": "Hugging Face Text Embeddings Inference (TEI) v2 — repo + quick tour",
+  "url": "https://github.com/huggingface/text-embeddings-inference",
+  "publisher": "Hugging Face",
+  "published_at": "repo ativo; v2 em 2026",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md"
+}

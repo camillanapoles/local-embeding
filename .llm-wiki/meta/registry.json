@@ -1,0 +1,769 @@
+{
+ "generated_at": "2026-09-14T22:10:30Z",
+ "page_count": 52,
+ "pages": [
+  {
+   "id": "sources/computeprices-salad.md",
+   "path": "sources/computeprices-salad.md",
+   "type": "source",
+   "title": "Salad Cloud GPU Pricing — ComputePrices",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/serverless-gpu-endpoint.md",
+    "/entities/saladcloud.md"
+   ],
+   "words": 124
+  },
+  {
+   "id": "sources/faster-whisper-speaches.md",
+   "path": "sources/faster-whisper-speaches.md",
+   "type": "source",
+   "title": "faster-whisper + Speaches + whisper.cpp v1.8.x",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/speaches.md",
+    "/entities/whisper-cpp.md"
+   ],
+   "words": 106
+  },
+  {
+   "id": "sources/infinity-emb-repo.md",
+   "path": "sources/infinity-emb-repo.md",
+   "type": "source",
+   "title": "Infinity — michaelfeil/infinity",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/entities/infinity-emb.md"
+   ],
+   "words": 102
+  },
+  {
+   "id": "sources/kalm-embedding-gemma3-card.md",
+   "path": "sources/kalm-embedding-gemma3-card.md",
+   "type": "source",
+   "title": "KaLM-Embedding-Gemma3-12B-2511 — Tencent",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/matryoshka-quantization.md",
+    "/concepts/mteb-benchmark.md",
+    "/entities/kalm-embedding-gemma3.md"
+   ],
+   "words": 111
+  },
+  {
+   "id": "sources/kokoro-ptbr-voices.md",
+   "path": "sources/kokoro-ptbr-voices.md",
+   "type": "source",
+   "title": "Kokoro PT-BR (pf_dora) + Piper pt_BR-faber",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/kokoro.md",
+    "/entities/piper.md"
+   ],
+   "words": 109
+  },
+  {
+   "id": "sources/llama-cpp-android-docs.md",
+   "path": "sources/llama-cpp-android-docs.md",
+   "type": "source",
+   "title": "llama.cpp docs — Android/Termux",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/entities/llama-cpp.md"
+   ],
+   "words": 122
+  },
+  {
+   "id": "sources/llamacpp-embeddings-api.md",
+   "path": "sources/llamacpp-embeddings-api.md",
+   "type": "source",
+   "title": "Working with llama.cpp Embeddings — Software.Land",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/entities/llama-cpp.md"
+   ],
+   "words": 120
+  },
+  {
+   "id": "sources/milvus-embedding-2026.md",
+   "path": "sources/milvus-embedding-2026.md",
+   "type": "source",
+   "title": "Best Embedding Model 2026 — Milvus (snippet)",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/mteb-benchmark.md",
+    "/entities/qwen3-embedding-family.md"
+   ],
+   "words": 108
+  },
+  {
+   "id": "sources/premai-best-embedding-models-2026.md",
+   "path": "sources/premai-best-embedding-models-2026.md",
+   "type": "source",
+   "title": "Best Embedding Models for RAG (2026) — PremAI",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/matryoshka-quantization.md",
+    "/concepts/mteb-benchmark.md",
+    "/entities/qwen3-embedding-family.md"
+   ],
+   "words": 157
+  },
+  {
+   "id": "sources/qdrant-hybrid-quantization-docs.md",
+   "path": "sources/qdrant-hybrid-quantization-docs.md",
+   "type": "source",
+   "title": "Qdrant — Hybrid Query API + Quantization",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/matryoshka-quantization.md",
+    "/entities/qdrant.md"
+   ],
+   "words": 112
+  },
+  {
+   "id": "sources/qwen3-embedding-scores.md",
+   "path": "sources/qwen3-embedding-scores.md",
+   "type": "source",
+   "title": "Qwen3-Embedding — scores oficiais (0.6B/4B/8B)",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/mteb-benchmark.md",
+    "/entities/qwen3-embedding-family.md"
+   ],
+   "words": 116
+  },
+  {
+   "id": "sources/qwen3-reranker-gguf-llamacpp.md",
+   "path": "sources/qwen3-reranker-gguf-llamacpp.md",
+   "type": "source",
+   "title": "Qwen3-Reranker GGUF + llama-server --rerank",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/entities/llama-cpp.md",
+    "/entities/qwen3-embedding-family.md"
+   ],
+   "words": 115
+  },
+  {
+   "id": "sources/rag-chunking-2026-guides.md",
+   "path": "sources/rag-chunking-2026-guides.md",
+   "type": "source",
+   "title": "RAG Chunking 2026 — PremAI/DigitalApplied/Redis",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/recursive-directory-chunking.md",
+    "/entities/qdrant.md",
+    "/entities/qwen3-embedding-family.md"
+   ],
+   "words": 141
+  },
+  {
+   "id": "sources/saladcloud-container-gateway.md",
+   "path": "sources/saladcloud-container-gateway.md",
+   "type": "source",
+   "title": "SaladCloud — Container Groups & Container Gateway",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/serverless-gpu-endpoint.md",
+    "/entities/saladcloud.md"
+   ],
+   "words": 125
+  },
+  {
+   "id": "sources/sqlite-vec-release.md",
+   "path": "sources/sqlite-vec-release.md",
+   "type": "source",
+   "title": "sqlite-vec v0.1.9 — verificado no Termux",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/incremental-indexing.md",
+    "/entities/sqlite-vec.md"
+   ],
+   "words": 135
+  },
+  {
+   "id": "sources/text-embeddings-inference-repo.md",
+   "path": "sources/text-embeddings-inference-repo.md",
+   "type": "source",
+   "title": "TEI v2 — Hugging Face text-embeddings-inference",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/k8s-workload-isolation.md",
+    "/entities/text-embeddings-inference.md"
+   ],
+   "words": 125
+  },
+  {
+   "id": "sources/tts-2026-rankings.md",
+   "path": "sources/tts-2026-rankings.md",
+   "type": "source",
+   "title": "Best Local TTS Models 2026 — rankings",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/kokoro.md",
+    "/entities/piper.md"
+   ],
+   "words": 122
+  },
+  {
+   "id": "sources/virtual-kubelet-saladcloud-repo.md",
+   "path": "sources/virtual-kubelet-saladcloud-repo.md",
+   "type": "source",
+   "title": "SaladTechnologies/virtual-kubelet-saladcloud",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/k8s-workload-isolation.md",
+    "/concepts/serverless-gpu-endpoint.md",
+    "/entities/saladcloud.md",
+    "/entities/virtual-kubelet-saladcloud.md"
+   ],
+   "words": 104
+  },
+  {
+   "id": "sources/voice-latency-2026.md",
+   "path": "sources/voice-latency-2026.md",
+   "type": "source",
+   "title": "Pipeline de voz 2026 — latência, VAD, barge-in",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/kokoro.md",
+    "/entities/whisper-cpp.md"
+   ],
+   "words": 98
+  },
+  {
+   "id": "sources/whisper-vocabulario-custom.md",
+   "path": "sources/whisper-vocabulario-custom.md",
+   "type": "source",
+   "title": "Whisper — vocabulário custom (initial_prompt/hotwords)",
+   "created": null,
+   "updated": null,
+   "links": [
+    "/concepts/stt-vocabulario-tecnico.md",
+    "/entities/speaches.md",
+    "/entities/whisper-cpp.md"
+   ],
+   "words": 117
+  },
+  {
+   "id": "entities/infinity-emb.md",
+   "path": "entities/infinity-emb.md",
+   "type": "entity",
+   "title": "Infinity (infinity-emb)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/sources/infinity-emb-repo.md"
+   ],
+   "words": 87
+  },
+  {
+   "id": "entities/kalm-embedding-gemma3.md",
+   "path": "entities/kalm-embedding-gemma3.md",
+   "type": "entity",
+   "title": "KaLM-Embedding-Gemma3-12B-2511",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/mteb-benchmark.md",
+    "/entities/saladcloud.md",
+    "/sources/kalm-embedding-gemma3-card.md"
+   ],
+   "words": 86
+  },
+  {
+   "id": "entities/kokoro.md",
+   "path": "entities/kokoro.md",
+   "type": "entity",
+   "title": "Kokoro-82M",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/piper.md",
+    "/sources/kokoro-ptbr-voices.md",
+    "/sources/tts-2026-rankings.md"
+   ],
+   "words": 89
+  },
+  {
+   "id": "entities/llama-cpp.md",
+   "path": "entities/llama-cpp.md",
+   "type": "entity",
+   "title": "llama.cpp (llama-server)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/sources/llama-cpp-android-docs.md",
+    "/sources/llamacpp-embeddings-api.md",
+    "/sources/qwen3-reranker-gguf-llamacpp.md"
+   ],
+   "words": 118
+  },
+  {
+   "id": "entities/piper.md",
+   "path": "entities/piper.md",
+   "type": "entity",
+   "title": "Piper",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/kokoro.md"
+   ],
+   "words": 65
+  },
+  {
+   "id": "entities/qdrant.md",
+   "path": "entities/qdrant.md",
+   "type": "entity",
+   "title": "Qdrant",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/matryoshka-quantization.md",
+    "/entities/sqlite-vec.md",
+    "/sources/qdrant-hybrid-quantization-docs.md"
+   ],
+   "words": 89
+  },
+  {
+   "id": "entities/qwen3-embedding-family.md",
+   "path": "entities/qwen3-embedding-family.md",
+   "type": "entity",
+   "title": "Qwen3-Embedding (0.6B/4B/8B) + Qwen3-Reranker",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/mteb-benchmark.md",
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/sources/premai-best-embedding-models-2026.md",
+    "/sources/qwen3-embedding-scores.md",
+    "/sources/qwen3-reranker-gguf-llamacpp.md"
+   ],
+   "words": 150
+  },
+  {
+   "id": "entities/saladcloud.md",
+   "path": "entities/saladcloud.md",
+   "type": "entity",
+   "title": "SaladCloud",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/serverless-gpu-endpoint.md",
+    "/sources/computeprices-salad.md",
+    "/sources/saladcloud-container-gateway.md"
+   ],
+   "words": 103
+  },
+  {
+   "id": "entities/speaches.md",
+   "path": "entities/speaches.md",
+   "type": "entity",
+   "title": "Speaches (ex-faster-whisper-server)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/whisper-cpp.md",
+    "/sources/faster-whisper-speaches.md"
+   ],
+   "words": 63
+  },
+  {
+   "id": "entities/sqlite-vec.md",
+   "path": "entities/sqlite-vec.md",
+   "type": "entity",
+   "title": "sqlite-vec",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/incremental-indexing.md",
+    "/concepts/matryoshka-quantization.md",
+    "/sources/sqlite-vec-release.md"
+   ],
+   "words": 114
+  },
+  {
+   "id": "entities/text-embeddings-inference.md",
+   "path": "entities/text-embeddings-inference.md",
+   "type": "entity",
+   "title": "TEI (text-embeddings-inference)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/k8s-workload-isolation.md",
+    "/concepts/serverless-gpu-endpoint.md",
+    "/sources/text-embeddings-inference-repo.md"
+   ],
+   "words": 99
+  },
+  {
+   "id": "entities/virtual-kubelet-saladcloud.md",
+   "path": "entities/virtual-kubelet-saladcloud.md",
+   "type": "entity",
+   "title": "virtual-kubelet-saladcloud",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/k8s-workload-isolation.md",
+    "/concepts/serverless-gpu-endpoint.md",
+    "/sources/virtual-kubelet-saladcloud-repo.md"
+   ],
+   "words": 93
+  },
+  {
+   "id": "entities/whisper-cpp.md",
+   "path": "entities/whisper-cpp.md",
+   "type": "entity",
+   "title": "whisper.cpp",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/llama-cpp.md",
+    "/entities/speaches.md",
+    "/sources/faster-whisper-speaches.md"
+   ],
+   "words": 80
+  },
+  {
+   "id": "concepts/hybrid-search-rerank.md",
+   "path": "concepts/hybrid-search-rerank.md",
+   "type": "concept",
+   "title": "Busca híbrida + rerank",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/recursive-directory-chunking.md",
+    "/entities/llama-cpp.md",
+    "/entities/qdrant.md",
+    "/entities/text-embeddings-inference.md",
+    "/sources/rag-chunking-2026-guides.md"
+   ],
+   "words": 145
+  },
+  {
+   "id": "concepts/incremental-indexing.md",
+   "path": "concepts/incremental-indexing.md",
+   "type": "concept",
+   "title": "Indexação incremental (content-hash)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/recursive-directory-chunking.md",
+    "/entities/sqlite-vec.md",
+    "/sources/sqlite-vec-release.md"
+   ],
+   "words": 136
+  },
+  {
+   "id": "concepts/k8s-workload-isolation.md",
+   "path": "concepts/k8s-workload-isolation.md",
+   "type": "concept",
+   "title": "Isolamento de workload em Kubernetes",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/serverless-gpu-endpoint.md",
+    "/entities/virtual-kubelet-saladcloud.md",
+    "/sources/text-embeddings-inference-repo.md",
+    "/sources/virtual-kubelet-saladcloud-repo.md"
+   ],
+   "words": 123
+  },
+  {
+   "id": "concepts/matryoshka-quantization.md",
+   "path": "concepts/matryoshka-quantization.md",
+   "type": "concept",
+   "title": "Matryoshka (MRL) + quantização",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/entities/qdrant.md",
+    "/entities/qwen3-embedding-family.md",
+    "/sources/qdrant-hybrid-quantization-docs.md"
+   ],
+   "words": 142
+  },
+  {
+   "id": "concepts/mteb-benchmark.md",
+   "path": "concepts/mteb-benchmark.md",
+   "type": "concept",
+   "title": "MTEB / MMTEB",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/matryoshka-quantization.md",
+    "/sources/milvus-embedding-2026.md",
+    "/sources/premai-best-embedding-models-2026.md"
+   ],
+   "words": 128
+  },
+  {
+   "id": "concepts/openai-compat-embedding-endpoint.md",
+   "path": "concepts/openai-compat-embedding-endpoint.md",
+   "type": "concept",
+   "title": "Endpoint de embedding OpenAI-compat",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/matryoshka-quantization.md",
+    "/entities/llama-cpp.md",
+    "/entities/text-embeddings-inference.md"
+   ],
+   "words": 123
+  },
+  {
+   "id": "concepts/recursive-directory-chunking.md",
+   "path": "concepts/recursive-directory-chunking.md",
+   "type": "concept",
+   "title": "Chunking de diretórios recursivos",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/hybrid-search-rerank.md",
+    "/concepts/incremental-indexing.md",
+    "/sources/rag-chunking-2026-guides.md"
+   ],
+   "words": 142
+  },
+  {
+   "id": "concepts/serverless-gpu-endpoint.md",
+   "path": "concepts/serverless-gpu-endpoint.md",
+   "type": "concept",
+   "title": "Endpoint GPU serverless (Salad Gateway)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/k8s-workload-isolation.md",
+    "/entities/saladcloud.md",
+    "/entities/virtual-kubelet-saladcloud.md",
+    "/sources/saladcloud-container-gateway.md"
+   ],
+   "words": 136
+  },
+  {
+   "id": "concepts/stt-vocabulario-tecnico.md",
+   "path": "concepts/stt-vocabulario-tecnico.md",
+   "type": "concept",
+   "title": "STT com vocabulário técnico (PT-BR + jargão EN)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/whisper-cpp.md",
+    "/sources/whisper-vocabulario-custom.md"
+   ],
+   "words": 100
+  },
+  {
+   "id": "concepts/voice-loop-latency.md",
+   "path": "concepts/voice-loop-latency.md",
+   "type": "concept",
+   "title": "Loop de voz e latência (fluidez)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/entities/kokoro.md",
+    "/entities/speaches.md",
+    "/entities/whisper-cpp.md"
+   ],
+   "words": 139
+  },
+  {
+   "id": "syntheses/cloud-embedding-stack.md",
+   "path": "syntheses/cloud-embedding-stack.md",
+   "type": "synthesis",
+   "title": "Stack cloud de embedding para RAG (VPS k3s + SaladCloud GPU)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/k8s-workload-isolation.md",
+    "/entities/kalm-embedding-gemma3.md",
+    "/entities/text-embeddings-inference.md",
+    "/entities/virtual-kubelet-saladcloud.md",
+    "/sources/computeprices-salad.md",
+    "/sources/kalm-embedding-gemma3-card.md",
+    "/sources/qdrant-hybrid-quantization-docs.md",
+    "/sources/saladcloud-container-gateway.md",
+    "/sources/text-embeddings-inference-repo.md",
+    "/sources/virtual-kubelet-saladcloud-repo.md",
+    "/syntheses/local-embedding-stack.md",
+    "/syntheses/local-vs-cloud-decision.md"
+   ],
+   "words": 322
+  },
+  {
+   "id": "syntheses/local-embedding-stack.md",
+   "path": "syntheses/local-embedding-stack.md",
+   "type": "synthesis",
+   "title": "Stack local de embedding para RAG (Termux + Pop!_OS)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/incremental-indexing.md",
+    "/concepts/recursive-directory-chunking.md",
+    "/entities/infinity-emb.md",
+    "/entities/llama-cpp.md",
+    "/entities/qwen3-embedding-family.md",
+    "/entities/sqlite-vec.md",
+    "/entities/text-embeddings-inference.md",
+    "/retros/llamacpp-termux-verified.md",
+    "/sources/infinity-emb-repo.md",
+    "/sources/llama-cpp-android-docs.md",
+    "/sources/llamacpp-embeddings-api.md",
+    "/sources/premai-best-embedding-models-2026.md",
+    "/sources/qwen3-reranker-gguf-llamacpp.md",
+    "/sources/rag-chunking-2026-guides.md",
+    "/sources/sqlite-vec-release.md",
+    "/sources/text-embeddings-inference-repo.md",
+    "/syntheses/cloud-embedding-stack.md",
+    "/syntheses/local-vs-cloud-decision.md"
+   ],
+   "words": 366
+  },
+  {
+   "id": "syntheses/local-vs-cloud-decision.md",
+   "path": "syntheses/local-vs-cloud-decision.md",
+   "type": "synthesis",
+   "title": "Local vs Cloud — qual usar para endpoint de embedding RAG",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/matryoshka-quantization.md",
+    "/concepts/openai-compat-embedding-endpoint.md",
+    "/concepts/serverless-gpu-endpoint.md",
+    "/syntheses/cloud-embedding-stack.md",
+    "/syntheses/local-embedding-stack.md",
+    "/syntheses/voice-stack.md"
+   ],
+   "words": 420
+  },
+  {
+   "id": "syntheses/voice-stack.md",
+   "path": "syntheses/voice-stack.md",
+   "type": "synthesis",
+   "title": "Stack de voz 2026 — conversar fluentemente com o modelo",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/voice-loop-latency.md",
+    "/entities/kokoro.md",
+    "/entities/piper.md",
+    "/entities/speaches.md",
+    "/entities/whisper-cpp.md",
+    "/sources/faster-whisper-speaches.md",
+    "/sources/kokoro-ptbr-voices.md",
+    "/sources/tts-2026-rankings.md",
+    "/sources/voice-latency-2026.md",
+    "/syntheses/local-vs-cloud-decision.md"
+   ],
+   "words": 220
+  },
+  {
+   "id": "analyses/research-skill-stack.md",
+   "path": "analyses/research-skill-stack.md",
+   "type": "analysis",
+   "title": "Skill stack de pesquisa (skill-scout)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [],
+   "words": 217
+  },
+  {
+   "id": "analyses/source-policy-2026.md",
+   "path": "analyses/source-policy-2026.md",
+   "type": "analysis",
+   "title": "Política de fontes: confiáveis e 2026",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/analyses/research-skill-stack.md",
+    "/sources/llamacpp-embeddings-api.md",
+    "/sources/premai-best-embedding-models-2026.md",
+    "/sources/sqlite-vec-release.md"
+   ],
+   "words": 195
+  },
+  {
+   "id": "retros/embedding-contract-first.md",
+   "path": "retros/embedding-contract-first.md",
+   "type": "analysis",
+   "title": "Retro: contrato antes do hardware",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/concepts/matryoshka-quantization.md",
+    "/concepts/openai-compat-embedding-endpoint.md"
+   ],
+   "words": 96
+  },
+  {
+   "id": "retros/llamacpp-termux-verified.md",
+   "path": "retros/llamacpp-termux-verified.md",
+   "type": "analysis",
+   "title": "Retro: verificação real do stack Termux (llama.cpp + Qwen3-Embedding-0.6B)",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/entities/sqlite-vec.md",
+    "/syntheses/local-embedding-stack.md"
+   ],
+   "words": 120
+  },
+  {
+   "id": "retros/wiki-manual-bootstrap.md",
+   "path": "retros/wiki-manual-bootstrap.md",
+   "type": "analysis",
+   "title": "Retro: bootstrap de wiki llm-wiki sem a extensão pi",
+   "created": "2026-09-14",
+   "updated": "2026-09-14",
+   "links": [
+    "/analyses/source-policy-2026.md"
+   ],
+   "words": 106
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "commit-message",
+  "name": "Mensagem de commit",
+  "steps": [
+    {"id": "s1", "label": "Gerar commit", "template": "Gere uma mensagem de commit conventional (subject em inglês tipo feat:/fix:, corpo curto em português) para o diff:\n{{input}}\nResponda APENAS a mensagem, sem cercas de código."}
+  ]
+}

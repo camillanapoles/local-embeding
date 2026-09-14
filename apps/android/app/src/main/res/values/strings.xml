@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Local Embed Teclado</string>
+    <string name="ime_name">Local Embed Teclado (LLM+voz)</string>
+    <string name="subtype_ptbr">Português (Brasil)</string>
+</resources>

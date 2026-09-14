@@ -1,0 +1,65 @@
+{
+  "wiki": {
+    "mode": "personal",
+    "topic": "LLM embedding local/cloud para RAG sobre diretórios recursivos",
+    "description": "Wiki de pesquisa: endpoint de embedding OpenAI-compat para RAG — Termux/Android, Pop!_OS CPU, VPS+k3s+SaladCloud GPU. Fontes 2026."
+  },
+  "topics": [
+    {
+      "name": "embedding-models-2026",
+      "keywords": [
+        "embedding",
+        "MTEB",
+        "Qwen3-Embedding",
+        "BGE-M3",
+        "reranker"
+      ]
+    },
+    {
+      "name": "local-serving",
+      "keywords": [
+        "llama.cpp",
+        "llama-server",
+        "Termux",
+        "sqlite-vec",
+        "Qdrant"
+      ]
+    },
+    {
+      "name": "cloud-gpu",
+      "keywords": [
+        "SaladCloud",
+        "virtual-kubelet",
+        "TEI",
+        "k3s",
+        "KEDA"
+      ]
+    },
+    {
+      "name": "rag-pipeline",
+      "keywords": [
+        "chunking",
+        "hybrid search",
+        "late chunking",
+        "contextual retrieval"
+      ]
+    }
+  ],
+  "source_policy": {
+    "tier_A": "Publicado/atualizado em 2026; fonte confiável (docs oficiais, GitHub da org, benchmark vivo, blog de vendor técnico)",
+    "tier_B": "Pré-2026 fundamental (model cards, releases base) — permitido só quando não há equivalente 2026; sempre com flag",
+    "reliability_order": [
+      "docs oficial > GitHub org > benchmark/leaderboard vivo > blog técnico vendor > blog comunitário (vetar)"
+    ],
+    "verification_levels": [
+      "full-text",
+      "snippet",
+      "local-test"
+    ]
+  },
+  "bootstrap": {
+    "created": "2026-09-14",
+    "harness": "omp (emulação manual do fluxo llm-wiki; sem ferramentas wiki_* da extensão pi)",
+    "meta_builder": "tools/wiki_meta.py"
+  }
+}

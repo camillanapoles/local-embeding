@@ -1,0 +1,22 @@
+# Log de atividade (gerado de events.jsonl — não editar)
+
+- 2026-09-14T13:49:17Z · **capture** — 14 fontes SRC-2026-09-14-001..014 (1 full-text, 12 snippet, 1 local-test)
+- 2026-09-14T13:49:17Z · **meta_rebuild** — 38 páginas, 139 arestas
+- 2026-09-14T13:49:17Z · **pages** — 38 páginas wiki: 14 sources, 9 entities, 8 concepts, 3 syntheses, 2 analyses, 2 retros
+- 2026-09-14T13:49:17Z · **meta_rebuild** — 38 páginas, 139 arestas
+- 2026-09-14T13:55:14Z · **docs** — 3 docs criados: EMBED-RAG-LOCAL, EMBED-RAG-CLOUD, EMBED-RAG-DECISAO
+- 2026-09-14T13:55:14Z · **meta_rebuild** — 38 páginas, 140 arestas
+- 2026-09-14T13:55:14Z · **refine** — gap-pass: versionamento de índice (7.1/11.1), risco de parser, comando -hf, fallback cloud->local, typo wiki, deorphan skill-stack
+- 2026-09-14T13:55:14Z · **meta_rebuild** — 38 páginas, 140 arestas
+- 2026-09-14T13:55:15Z · **meta_rebuild** — 38 páginas, 140 arestas
+- 2026-09-14T13:55:48Z · **meta_rebuild** — 38 páginas, 140 arestas
+- 2026-09-14T13:56:09Z · **meta_rebuild** — 38 páginas, 140 arestas
+- 2026-09-14T21:04:49Z · **verify** — Android real: llama-server build 4m54s (Clang 21, aarch64); Qwen3-Embedding-0.6B Q8 oficial 639MB; /v1/embeddings 1024 dims; 135ms solo; 253ms batch-8; --mlock removido na versão atual
+- 2026-09-14T21:04:49Z · **meta_rebuild** — 49 páginas, 182 arestas
+- 2026-09-14T21:04:49Z · **docs** — rev.2: Padrão C (VPS CPU endpoint) + KB-junto-do-endpoint em DECISAO §1.1-1.2; tools/verify_vps.sh; doc VOICE-LLM.md; 4 packets SRC-015..018 (voz)
+- 2026-09-14T21:04:49Z · **meta_rebuild** — 49 páginas, 182 arestas
+- 2026-09-14T21:04:50Z · **meta_rebuild** — 49 páginas, 182 arestas
+- 2026-09-14T21:05:13Z · **meta_rebuild** — 49 páginas, 183 arestas
+- 2026-09-14T22:10:30Z · **docs** — rev.3: VOICE-LLM §1.1 papéis dos modelos, §1.2 qualidade 0.6B vs padrão (61.82>58.93 MTEB-R, Code 75.41), §3.1.1 vocabulário técnico PT-BR (initial_prompt/hotwords) + tools/glossario-tech-ptbr.txt (~120 termos)
+- 2026-09-14T22:10:30Z · **meta_rebuild** — 52 páginas, 192 arestas
+- 2026-09-14T22:10:30Z · **meta_rebuild** — 52 páginas, 192 arestas

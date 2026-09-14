@@ -1,0 +1,13 @@
+{
+  "id": "SRC-2026-09-14-012",
+  "title": "Qwen3-Reranker GGUF p/ llama.cpp + API --rerank",
+  "url": "https://huggingface.co/collections/Voodisss/qwen3-reranker-gguf-for-llamacpp",
+  "publisher": "Voodisss/bgeneto (comunidade)",
+  "published_at": "2026-03-10",
+  "captured_at": "2026-09-14",
+  "tier": "A",
+  "verification": "snippet",
+  "original_stored": false,
+  "original_not_stored_reason": "HTML completo pesado; URL canônica + excerpt verificado em extracted.md",
+  "caveat": "usar apenas GGUFs convertidos com convert_hf_to_gguf.py oficial (com cls.output.weight + pooling_type=RANK)"
+}
