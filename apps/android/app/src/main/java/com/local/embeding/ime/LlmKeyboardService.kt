@@ -2,6 +2,8 @@ package com.local.embeding.ime
 
 import android.content.Intent
 import android.inputmethodservice.InputMethodService
+import android.os.Handler
+import android.os.Looper
 import android.view.Gravity
 import android.view.View
 import android.widget.Button
@@ -69,10 +71,10 @@ class LlmKeyboardService : InputMethodService() {
 
         voiceBtn.setOnClickListener {
             val perm = android.content.pm.PackageManager.PERMISSION_GRANTED ==
-                checkSelfPermission(android.Manifest.permission.RECORD_AUDIO)
+                this@LlmKeyboardService.checkSelfPermission(android.Manifest.permission.RECORD_AUDIO)
             if (!perm) { toast("conceda o microfone no app Local Embed"); return@setOnClickListener }
             status.text = "ouvindo…"
-            VoiceIO.listen(ctx, { saida -> currentInputConnection?.commitText(saida + " "); status.text = "ok" },
+            VoiceIO.listen(ctx, { saida -> currentInputConnection?.commitText(saida + " ", 1); status.text = "ok" },
                 { e -> status.text = e })
         }
         runBtn.setOnClickListener { runPrompt(readInput()) }
@@ -109,13 +111,13 @@ class LlmKeyboardService : InputMethodService() {
                     out = LlmClient.chat(base, model, prompt)
                     prev = out
                 }
-                runOnUiThread {
+                Handler(Looper.getMainLooper()).post {
                     status.text = "✓ pronto"
-                    if (mode != Prefs.MODE_AUDIO) currentInputConnection?.commitText(out + "\n")
+                    if (mode != Prefs.MODE_AUDIO) currentInputConnection?.commitText(out + "\n", 1)
                     if (mode != Prefs.MODE_TEXT) speaker.speak(out)
                 }
             } catch (e: Exception) {
-                runOnUiThread { status.text = "erro: ${e.message?.take(80)}" }
+                Handler(Looper.getMainLooper()).post { status.text = "erro: ${e.message?.take(80)}" }
             }
         }
     }
@@ -133,7 +135,7 @@ class LlmKeyboardService : InputMethodService() {
                     prev = out
                 }
                 val finalText = out
-                runOnUiThread {
+                Handler(Looper.getMainLooper()).post {
                     status.text = "✓ disparando intent"
                     val i = Intent(action).apply {
                         putExtra(Intent.EXTRA_TEXT, finalText)
@@ -143,7 +145,7 @@ class LlmKeyboardService : InputMethodService() {
                     try { startActivity(i) } catch (e: Exception) { toast("intent falhou: ${e.message}") }
                 }
             } catch (e: Exception) {
-                runOnUiThread { status.text = "erro: ${e.message?.take(80)}" }
+                Handler(Looper.getMainLooper()).post { status.text = "erro: ${e.message?.take(80)}" }
             }
         }
     }

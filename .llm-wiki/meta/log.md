@@ -20,3 +20,9 @@
 - 2026-09-14T22:10:30Z · **docs** — rev.3: VOICE-LLM §1.1 papéis dos modelos, §1.2 qualidade 0.6B vs padrão (61.82>58.93 MTEB-R, Code 75.41), §3.1.1 vocabulário técnico PT-BR (initial_prompt/hotwords) + tools/glossario-tech-ptbr.txt (~120 termos)
 - 2026-09-14T22:10:30Z · **meta_rebuild** — 52 páginas, 192 arestas
 - 2026-09-14T22:10:30Z · **meta_rebuild** — 52 páginas, 192 arestas
+- 2026-09-14T23:21:38Z · **github** — repo github.com/camillanapoles/local-embeding criado: APK IME (LLM+voz+FSM prompts+intents), TUI Termux, CI build-APK (4 gates), CD release; modelos verificados em models.json
+- 2026-09-14T23:21:38Z · **meta_rebuild** — 54 páginas, 195 arestas
+- 2026-09-14T23:21:39Z · **meta_rebuild** — 54 páginas, 195 arestas
+- 2026-09-14T23:31:45Z · **ci-green** — CI verde 4/4 gates no repo local-embeding (run 34909110800); APK debug artifact disponível
+- 2026-09-14T23:31:45Z · **meta_rebuild** — 54 páginas, 195 arestas
+- 2026-09-14T23:31:45Z · **meta_rebuild** — 54 páginas, 195 arestas

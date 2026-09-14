@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T22:10:30Z",
+ "generated_at": "2026-09-14T23:31:45Z",
  "backlinks": {
   "analyses/research-skill-stack.md": [
    "analyses/source-policy-2026.md"
@@ -59,6 +59,7 @@
    "entities/llama-cpp.md",
    "entities/qwen3-embedding-family.md",
    "retros/embedding-contract-first.md",
+   "sources/android-llm-ondevice-2026.md",
    "sources/infinity-emb-repo.md",
    "sources/llama-cpp-android-docs.md",
    "sources/llamacpp-embeddings-api.md",
@@ -90,6 +91,7 @@
    "entities/speaches.md",
    "entities/whisper-cpp.md",
    "sources/faster-whisper-speaches.md",
+   "sources/ime-voz-llm-intents-2026.md",
    "sources/kokoro-ptbr-voices.md",
    "sources/tts-2026-rankings.md",
    "sources/voice-latency-2026.md",
@@ -115,6 +117,7 @@
    "concepts/hybrid-search-rerank.md",
    "concepts/openai-compat-embedding-endpoint.md",
    "entities/whisper-cpp.md",
+   "sources/android-llm-ondevice-2026.md",
    "sources/llama-cpp-android-docs.md",
    "sources/llamacpp-embeddings-api.md",
    "sources/qwen3-reranker-gguf-llamacpp.md",
