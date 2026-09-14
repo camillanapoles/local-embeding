@@ -95,6 +95,20 @@ jobs:
           print('OK: links relativos resolvidos')
           PY
 
+  core:
+    name: Core unit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q pytest
+      - name: Unit tests (fsm/ooda/config)
+        run: python3 -m pytest tests/unit -q
+      - name: Import smoke
+        run: python3 -c "from apps.core.fsm import load; from apps.core.ooda import OodaRunner; from apps.core.config import Config; print('core ok')"
   workflows:
     name: Workflows YAML
     runs-on: ubuntu-latest
