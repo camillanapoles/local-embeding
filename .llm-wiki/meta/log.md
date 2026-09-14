@@ -23,3 +23,6 @@
 - 2026-09-14T23:21:38Z · **github** — repo github.com/camillanapoles/local-embeding criado: APK IME (LLM+voz+FSM prompts+intents), TUI Termux, CI build-APK (4 gates), CD release; modelos verificados em models.json
 - 2026-09-14T23:21:38Z · **meta_rebuild** — 54 páginas, 195 arestas
 - 2026-09-14T23:21:39Z · **meta_rebuild** — 54 páginas, 195 arestas
+- 2026-09-14T23:31:45Z · **ci-green** — CI verde 4/4 gates no repo local-embeding (run 34909110800); APK debug artifact disponível
+- 2026-09-14T23:31:45Z · **meta_rebuild** — 54 páginas, 195 arestas
+- 2026-09-14T23:31:45Z · **meta_rebuild** — 54 páginas, 195 arestas

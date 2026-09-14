@@ -1,4 +1,4 @@
-# Índice do wiki — gerado 2026-09-14T23:21:39Z (54 páginas)
+# Índice do wiki — gerado 2026-09-14T23:31:45Z (54 páginas)
 
 ## analysis (5)
 - [Skill stack de pesquisa (skill-scout)](../wiki/analyses/research-skill-stack.md) — analyses/research-skill-stack.md · 1 backlink(s)
