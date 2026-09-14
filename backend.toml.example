@@ -1,0 +1,11 @@
+# Copie para backend.toml (NÃO comite — já no .gitignore) ou use variáveis de ambiente.
+[harness]
+EMB_BASE_URL = "http://127.0.0.1:8080/v1"
+EMB_MODEL = "qwen3-1.7b"
+EMB_MAX_CALLS = 32
+EMB_MAX_TOKENS = 200000
+EMB_TIMEOUT_S = 180
+
+[policy]
+# allowlist de intents — default VAZIO (deny-all). Libere explicitamente.
+EMB_INTENTS_ALLOWLIST = "android.intent.action.SEND"
