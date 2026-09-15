@@ -82,10 +82,12 @@ Variáveis: `{{input}}` = texto do campo; `{{prev}}` = saída do passo anterior.
 ## 3. TUI Termux — mesma coisa no terminal
 
 ```bash
-EMB_TUI_BASE=http://127.0.0.1:8080/v1 python3 apps/tui/tui.py
+# zero hardcode: config por env (ou backend.toml — veja backend.toml.example)
+export EMB_BASE_URL=http://127.0.0.1:8080/v1 EMB_MODEL=qwen3-1.7b
+python3 apps/tui/tui.py
 # menu: 1 executar prompt FSM · 2 chat · 3 testar endpoint · 4 modelos do operador · 5 criar prompt
 ```
-Zero dependências (curses). Criar prompt na TUI grava em `prompts/` (sincronize a cópia do APK se quiser no teclado).
+Zero dependências (curses); **fail-closed**: sem `EMB_BASE_URL`/`EMB_MODEL` a TUI não sobe. Criar prompt na TUI grava em `prompts/`; CLI do core: `python3 -m apps.core list|validate|run` (ver [docs/HARNESS.md](docs/HARNESS.md)).
 
 ## 4. Modelos indicados pelo operador (LLM assistente)
 
@@ -93,7 +95,7 @@ Zero dependências (curses). Criar prompt na TUI grava em `prompts/` (sincronize
 
 ## 5. CI/CD — loop GitOps determinístico
 
-- **CI** (`.github/workflows/ci.yml`): gates `APK build`, `TUI smoke`, `Docs links`, `Workflows YAML` — dispara em qualquer push/PR.
+- **CI** (`.github/workflows/ci.yml`): gates `APK build`, `TUI smoke`, `Core unit`, `Hardcode scan`, `E2E backend`, `Docs links`, `Workflows YAML` — dispara em qualquer push/PR.
 - **CD** (`cd.yml`): tag `v*` ➞ Release com o APK anexado.
 - **Loop de incremento** (R1–R9): `bash scripts/iniciar-sessao.sh` (estado: git+PRs+débitos+WAL) ➞ branch `feat|fix|docs/slug` ➞ push (CI gateia) ➞ VERMELHO? corrige **no branch** e push de novo ➞ verde ➞ PR ➞ `gh pr merge --auto` (gates required via `scripts/protege-main.sh`) ➞ main ➞ tag.
 - Repo **público** ➞ Actions rodam (sem janela). Se for privar: `scripts/flip-public.sh` / `flip-private.sh` (janela + catch-up).
