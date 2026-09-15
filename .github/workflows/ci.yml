@@ -109,6 +109,20 @@ jobs:
         run: python3 -m pytest tests/unit -q
       - name: Import smoke
         run: python3 -c "from apps.core.fsm import load; from apps.core.ooda import OodaRunner; from apps.core.config import Config; print('core ok')"
+  hardcode:
+    name: Hardcode scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Zero hardcode em apps/ scripts/
+        run: python3 -m apps.core.hardcode_scan
+      - name: Hookify rules válidas
+        run: pip install -q pyyaml && python3 -m pytest tests/unit/test_hookify_rules.py -q
+
   workflows:
     name: Workflows YAML
     runs-on: ubuntu-latest

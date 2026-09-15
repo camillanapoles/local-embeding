@@ -25,10 +25,10 @@ class MainActivity : Activity() {
         }
         root.addView(TextView(this).apply { text = "Local Embed Teclado — configuração"; textSize = 20f })
         root.addView(TextView(this).apply { text = "Endpoint (OpenAI-compat):"; textSize = 12f })
-        baseEt = EditText(this).apply { setText(Prefs.base(this@MainActivity)); hint = "http://127.0.0.1:8080/v1" }
+        baseEt = EditText(this).apply { setText(Prefs.base(this@MainActivity)); hint = getString(R.string.default_base_hint) }
         root.addView(baseEt)
         root.addView(TextView(this).apply { text = "Modelo (id):"; textSize = 12f })
-        modelEt = EditText(this).apply { setText(Prefs.model(this@MainActivity)); hint = "qwen3-1.7b" }
+        modelEt = EditText(this).apply { setText(Prefs.model(this@MainActivity)); hint = getString(R.string.default_model_hint) }
         root.addView(modelEt)
         val modeBtn = Button(this).apply { text = "saída do teclado: ${Prefs.mode(this@MainActivity)}" }
         modeBtn.setOnClickListener {

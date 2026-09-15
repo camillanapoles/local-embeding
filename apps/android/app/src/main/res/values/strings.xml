@@ -3,4 +3,9 @@
     <string name="app_name">Local Embed Teclado</string>
     <string name="ime_name">Local Embed Teclado (LLM+voz)</string>
     <string name="subtype_ptbr">Português (Brasil)</string>
+    <!-- defaults de UI (zero-hardcode: código Kotlin não carrega endpoint/modelo — hardcode_scan vigia) -->
+    <string name="default_base_url">http://127.0.0.1:8080/v1</string>
+    <string name="default_base_hint">http://127.0.0.1:8080/v1</string>
+    <string name="default_model_id">qwen3-1.7b</string>
+    <string name="default_model_hint">qwen3-1.7b</string>
 </resources>
