@@ -4,12 +4,13 @@ import android.content.Context
 
 object Prefs {
     private const val FILE = "cfg"
-    const val DEFAULT_BASE = "http://127.0.0.1:8080/v1"
-    const val DEFAULT_MODEL = "qwen3-1.7b"
     const val MODE_TEXT = "TEXTO"; const val MODE_AUDIO = "ÁUDIO"; const val MODE_BOTH = "AMBOS"
 
-    fun base(c: Context) = c.getSharedPreferences(FILE, 0).getString("base", DEFAULT_BASE)!!
-    fun model(c: Context) = c.getSharedPreferences(FILE, 0).getString("model", DEFAULT_MODEL)!!
+    // defaults vêm de res/values/strings.xml (recurso de UI) — zero endpoint/modelo em código (hardcode_scan)
+    fun base(c: Context) = c.getSharedPreferences(FILE, 0).getString("base", null)
+        ?: c.getString(R.string.default_base_url)
+    fun model(c: Context) = c.getSharedPreferences(FILE, 0).getString("model", null)
+        ?: c.getString(R.string.default_model_id)
     fun mode(c: Context) = c.getSharedPreferences(FILE, 0).getString("mode", MODE_TEXT)!!
     fun save(c: Context, base: String, model: String, mode: String) =
         c.getSharedPreferences(FILE, 0).edit()

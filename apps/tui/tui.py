@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """Local Embed TUI (Termux) — prompts FSM + chat + teste de endpoint + download de modelos.
 
-Zero dependências (curses + urllib + json). Config por env:
-  EMB_TUI_BASE  (default http://127.0.0.1:8080/v1)   EMB_TUI_MODEL (default qwen3-1.7b)
+Zero dependências (curses + urllib + json). Config 100% externa (zero hardcode):
+  EMB_BASE_URL (obrigatório)   EMB_MODEL (obrigatório)   — ou backend.toml (veja backend.toml.example)
 """
 import curses, json, os, subprocess, sys, urllib.request
 
-BASE = os.environ.get("EMB_TUI_BASE", "http://127.0.0.1:8080/v1")
-MODEL = os.environ.get("EMB_TUI_MODEL", "qwen3-1.7b")
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 PROMPTS_DIR = os.path.join(ROOT, "prompts")
+
+BASE = ""   # preenchido em main() via apps.core.config (fail-closed)
+MODEL = ""
 
 
 def http_post(path, payload, timeout=300):
@@ -149,8 +150,23 @@ def main(stdscr):
         elif k == ord("5"): create_prompt(stdscr)
 
 
+def _load_cfg():
+    """Fail-closed: sem EMB_BASE_URL/EMB_MODEL (ou backend.toml) a TUI não sobe — zero hardcode."""
+    global BASE, MODEL
+    sys.path.insert(0, ROOT)
+    from apps.core.config import Config, ConfigError
+    try:
+        cfg = Config.from_env(path=os.path.join(ROOT, "backend.toml"))
+    except ConfigError as e:
+        print(str(e))
+        sys.exit(2)
+    BASE = cfg.base_url if cfg.base_url.endswith("/v1") else cfg.base_url + "/v1"
+    MODEL = cfg.model
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--smoke":
         print("ok: tui importavel,", len(list_prompts()), "prompts carregados")
         sys.exit(0)
+    _load_cfg()
     curses.wrapper(main)
