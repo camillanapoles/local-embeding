@@ -1,8 +1,21 @@
 {
   "id": "revisao-codigo",
-  "name": "Revisão de código em 2 passos",
-  "steps": [
-    {"id": "s1", "label": "Listar problemas", "template": "Revise o código abaixo e liste problemas concretos (bug, risco, leitura) numerados, máximo 7:\n{{input}}"},
-    {"id": "s2", "label": "Sugerir correções", "template": "Para cada problema:\n{{prev}}\nsugira a correção em diff mínimo. Código primeiro, sem prosa longa."}
+  "name": "Revisão de código (2 estados)",
+  "initial": "problemas",
+  "states": [
+    {
+      "id": "problemas",
+      "prompt": "Revise o código abaixo e liste problemas concretos (bug, risco, leitura) numerados, máximo 7:\n{{input}}",
+      "transitions": [
+        {
+          "to": "correcoes"
+        }
+      ]
+    },
+    {
+      "id": "correcoes",
+      "prompt": "Para cada problema:\n{{prev}}\nsugira a correção em diff mínimo. Código primeiro, sem prosa longa.",
+      "terminal": true
+    }
   ]
 }

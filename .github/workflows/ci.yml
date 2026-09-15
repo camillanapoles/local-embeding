@@ -123,6 +123,31 @@ jobs:
       - name: Hookify rules válidas
         run: pip install -q pyyaml && python3 -m pytest tests/unit/test_hookify_rules.py -q
 
+  e2e:
+    name: E2E backend
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q pytest
+      - name: E2E contra stub OpenAI-compat (happy + cenários negativos)
+        run: python3 -m pytest tests/e2e -q
+      - name: Prompts do repo são FSM válidas
+        run: |
+          python3 - <<'PY'
+          import glob, json, subprocess, sys
+          bad = 0
+          for f in sorted(glob.glob('prompts/*.json')):
+              r = subprocess.run([sys.executable, '-m', 'apps.core', 'validate', f],
+                                 capture_output=True, text=True)
+              if r.returncode != 0:
+                  print(r.stdout); bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+
   workflows:
     name: Workflows YAML
     runs-on: ubuntu-latest
